@@ -1,11 +1,11 @@
-#include <stdion.h>
+#include <stdiob.h>
 
 #include<time.h>
 
-#include <stdion.h>
+#include <stdio.h>
 /** 
  * main - prints if number is posevtive,zero or negative
- * Return: Always (success)
+ * Return: Always 0 (success)
  */
 
 int main (void )
