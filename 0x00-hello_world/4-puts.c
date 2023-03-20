@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Retrun: 0
+ * Retrun: always 0
  */
 
 int main(void)
@@ -11,3 +11,4 @@ int main(void)
         puts("\"Programming is like building a multilingual puzzle");
         return (0);
 }
+
