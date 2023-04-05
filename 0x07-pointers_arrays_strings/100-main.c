@@ -3,7 +3,9 @@
 
 /**
  * main - check the code
- *
+ * set_string - is the function
+ * @s1: value
+ * @s0: numbers
  * Return: Always 0.
  */
 int main(void)
