@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _memest- This is a pointer to the block of memory to fill.
- * @s: his is a pointer to the block of memory to fill.
- * @b: This is the value to be set.
- * @n: the size of numbers
+ * _memest - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
  *
- * Return: Nothing.
+ * Return: Always 0 (success)
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -20,4 +20,3 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (s);
 }
-

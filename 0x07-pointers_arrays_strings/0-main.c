@@ -31,9 +31,11 @@ void simple_print_buffer(char *buffer, unsigned int size)
 
 /**
  * main - check the code
+ * _memset - fill a block of memory with a specific value
  *
  * Return: Always 0.
  */
+char *_memset(char *s, char b, unsigned int n);
 int main(void)
 {
     char buffer[98] = {0x00};
