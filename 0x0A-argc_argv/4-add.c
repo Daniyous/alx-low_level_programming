@@ -42,15 +42,11 @@ while (count < argc) /*Goes through the whole array*/
 {
 if (check_num(argv[count]))
 {
-str_to_int = atoi(argv[count]); /*ATOI --> convert string
-
-to int*/
+str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 
 sum += str_to_int;
 }
-/*Condition if one of the number contains symbols that are
-
-not digits*/
+/*Condition if one of the number contains symbols that are not digits*/
 else
 {
 printf("Error\n");
