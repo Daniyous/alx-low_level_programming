@@ -3,12 +3,12 @@
 /**
  * clear_bit -this sets value of a given bit to 0
  *
- * @n:to change pointer to the number 
+ * @n:to change pointer to the number
  *
  * @index: index of the bit to clear
  *
  * Return: 1 for success
- * 	 -1 error
+ *	 -1 error
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
